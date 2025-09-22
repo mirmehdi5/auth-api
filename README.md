@@ -6,15 +6,15 @@ This is an application with RESTful authentication API built with Node.js(TypeSc
 
 ## Features
 
-**User Registration**: Creates users with unique usernames and securely hashed passwords.
-**Authentication**: Issues JWTs with a 1 hour expiration, validated using a unique JTI stored in Redis
-**Protected Routes**: Requires valid JWTs for access(eg. '/api/auth/test')
-**Input validation**: Ensures input checking with 'express-validator'
-**Rate Limiting**: Limits requests to prevent brute-force attacks(100 requests / 15 mins)
-**Security Headers**: Uses "helmet" to set HTTP security headers
-**Logging**: Implements 'winston' for structured logging
-**Redis Integration**: Stores data and token metadata with reconnection strategy
-**TypeScript**: Leverages TypeScript for strong typing and better code quality
+- **User Registration**: Creates users with unique usernames and securely hashed passwords.
+- **Authentication**: Issues JWTs with a 1 hour expiration, validated using a unique JTI stored in Redis
+- **Protected Routes**: Requires valid JWTs for access(eg. '/api/auth/test')
+- **Input validation**: Ensures input checking with 'express-validator'
+- **Rate Limiting**: Limits requests to prevent brute-force attacks(100 requests / 15 mins)
+- **Security Headers**: Uses "helmet" to set HTTP security headers
+- **Logging**: Implements 'winston' for structured logging
+- **Redis Integration**: Stores data and token metadata with reconnection strategy
+- **TypeScript**: Leverages TypeScript for strong typing and better code quality
 
 ## Setup
 ### Prerequisites
